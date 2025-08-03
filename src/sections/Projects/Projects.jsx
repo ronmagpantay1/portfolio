@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import fras from '../../assets/FRAS.png';
+import chor from '../../assets/Chord.png';
+import ambat from '../../assets/Ambatu.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +10,22 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={chor}
+          link="https://github.com/ronmagpantay1/chordefine.git"
+          h3="ChorDefine"
+          p="Guitar Chord Practice App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={fras}
+          link="https://github.com/paullooll/FaceRecognitionAttendanceSystem.git"
+          h3="FRAS"
+          p="Facial Recognition Attendance System"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={ambat}
+          link="https://github.com/ronmagpantay1/cc206final.git"
+          h3="Ambatu.help"
+          p="AI Chatbot Assistant"
         />
       </div>
     </section>
